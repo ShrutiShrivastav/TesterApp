@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/arrow_back_black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="90dp"
+                    android:fontFamily="@font/nunito"
+                    android:textColor="@color/black"
+                    android:text="1. Your Information"
+                    android:textSize="26dp" />
+                <TextView
+                    android:id="@+id/personal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="150dp"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:textColor="@color/text_blue"
+                    android:text="Personal Information"
+                    android:textSize="20dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/personal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginLeft="26dp"
+                        android:text="First Name"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/nunito_semibold"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:layout_width="364dp"
+                        android:layout_height="62dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="26dp"
+                        android:gravity="center_vertical"
+                        android:hint="Enter First Name"
+                        android:background="@drawable/background"
+                        android:paddingLeft="29dp"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="26dp"
+                        android:text="Last Name"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/nunito_semibold"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:layout_width="364dp"
+                        android:layout_height="62dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginLeft="26dp"
+                        android:gravity="center_vertical"
+                        android:hint="Enter Last Name"
+                        android:background="@drawable/background"
+                        android:paddingLeft="29dp"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="26dp"
+                        android:text="Email"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/nunito_semibold"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:layout_width="364dp"
+                        android:layout_height="62dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginLeft="26dp"
+                        android:gravity="center_vertical"
+                        android:hint="xyz@gmail.com"
+                        android:background="@drawable/background"
+                        android:paddingLeft="29dp"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="26dp"
+                        android:text="Phone"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/nunito_semibold"
+                        android:textSize="18dp"/>
+
+                    <EditText
+
+                        android:layout_width="364dp"
+                        android:layout_height="62dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginLeft="26dp"
+                        android:gravity="center_vertical"
+                        android:hint="+91123456789"
+                        android:background="@drawable/background"
+                        android:paddingLeft="29dp"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="26dp"
+                        android:text="Street Address"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/nunito_semibold"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:layout_width="364dp"
+                        android:layout_height="62dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginLeft="26dp"
+                        android:gravity="center_vertical"
+                        android:hint="21, Brockston road, CP"
+                        android:background="@drawable/background"
+                        android:paddingLeft="29dp"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="26dp"
+                        android:text="County"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/nunito_semibold"
+                        android:textSize="18dp"/>
+
+                    <EditText
+
+                        android:layout_width="364dp"
+                        android:layout_height="62dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginLeft="26dp"
+                        android:gravity="center_vertical"
+                        android:hint="India"
+                        android:background="@drawable/background"
+                        android:paddingLeft="29dp"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="26dp"
+                        android:text="Post Code"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/nunito_semibold"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:layout_width="364dp"
+                        android:layout_height="62dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginLeft="26dp"
+                        android:gravity="center_vertical"
+                        android:hint="400605"
+                        android:background="@drawable/background"
+                        android:paddingLeft="29dp"
+                        android:textSize="17dp"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/buttonsubmit"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="36dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginBottom="123dp"
+                        android:text="Next"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/nunito_semibold"
+                        android:textColor="@color/white"
+                        android:background="@drawable/background_solid"
+                        android:textAllCaps="false"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
